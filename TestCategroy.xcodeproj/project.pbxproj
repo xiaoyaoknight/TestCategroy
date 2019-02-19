@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C71954F5221BF51100EBEDA6 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = C71954F4221BF51100EBEDA6 /* Animal.m */; };
+		C71954F8221BF55400EBEDA6 /* Animal+Run.m in Sources */ = {isa = PBXBuildFile; fileRef = C71954F7221BF55400EBEDA6 /* Animal+Run.m */; };
+		C71954FB221BF55E00EBEDA6 /* Animal+Eat.m in Sources */ = {isa = PBXBuildFile; fileRef = C71954FA221BF55E00EBEDA6 /* Animal+Eat.m */; };
+		C71954FE221BF72900EBEDA6 /* Animal+bite.m in Sources */ = {isa = PBXBuildFile; fileRef = C71954FD221BF72900EBEDA6 /* Animal+bite.m */; };
 		C7A2CBED2211632B00F74A4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CBEC2211632B00F74A4E /* AppDelegate.m */; };
 		C7A2CBF02211632B00F74A4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CBEF2211632B00F74A4E /* ViewController.m */; };
 		C7A2CBF32211632B00F74A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A2CBF12211632B00F74A4E /* Main.storyboard */; };
@@ -15,6 +19,14 @@
 		C7A2CBFB2211632C00F74A4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CBFA2211632C00F74A4E /* main.m */; };
 		C7A2CC052211632C00F74A4E /* TestCategroyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CC042211632C00F74A4E /* TestCategroyTests.m */; };
 		C7A2CC102211632C00F74A4E /* TestCategroyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CC0F2211632C00F74A4E /* TestCategroyUITests.m */; };
+		C7A2CC1F2211635500F74A4E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CC1E2211635500F74A4E /* Person.m */; };
+		C7A2CC22221163AE00F74A4E /* Person+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CC21221163AE00F74A4E /* Person+Test1.m */; };
+		C7A2CC25221163B900F74A4E /* Person+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CC24221163B900F74A4E /* Person+Test2.m */; };
+		C7A2CC28221181A900F74A4E /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CC27221181A900F74A4E /* Cat.m */; };
+		C7A2CC2B221181B200F74A4E /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CC2A221181B200F74A4E /* Dog.m */; };
+		C7A2CC312211834F00F74A4E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CC302211834F00F74A4E /* Student.m */; };
+		C7A2CC342211835D00F74A4E /* Student+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CC332211835D00F74A4E /* Student+Test1.m */; };
+		C7A2CC372211836400F74A4E /* Student+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CC362211836400F74A4E /* Student+Test2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C71954F3221BF51100EBEDA6 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		C71954F4221BF51100EBEDA6 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		C71954F6221BF55400EBEDA6 /* Animal+Run.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Run.h"; sourceTree = "<group>"; };
+		C71954F7221BF55400EBEDA6 /* Animal+Run.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Run.m"; sourceTree = "<group>"; };
+		C71954F9221BF55E00EBEDA6 /* Animal+Eat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Eat.h"; sourceTree = "<group>"; };
+		C71954FA221BF55E00EBEDA6 /* Animal+Eat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Eat.m"; sourceTree = "<group>"; };
+		C71954FC221BF72900EBEDA6 /* Animal+bite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+bite.h"; sourceTree = "<group>"; };
+		C71954FD221BF72900EBEDA6 /* Animal+bite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+bite.m"; sourceTree = "<group>"; };
 		C7A2CBE82211632B00F74A4E /* TestCategroy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCategroy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A2CBEB2211632B00F74A4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7A2CBEC2211632B00F74A4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +71,22 @@
 		C7A2CC0B2211632C00F74A4E /* TestCategroyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCategroyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A2CC0F2211632C00F74A4E /* TestCategroyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCategroyUITests.m; sourceTree = "<group>"; };
 		C7A2CC112211632C00F74A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A2CC1D2211635500F74A4E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C7A2CC1E2211635500F74A4E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C7A2CC20221163AE00F74A4E /* Person+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Test1.h"; sourceTree = "<group>"; };
+		C7A2CC21221163AE00F74A4E /* Person+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Test1.m"; sourceTree = "<group>"; };
+		C7A2CC23221163B900F74A4E /* Person+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Test2.h"; sourceTree = "<group>"; };
+		C7A2CC24221163B900F74A4E /* Person+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Test2.m"; sourceTree = "<group>"; };
+		C7A2CC26221181A900F74A4E /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		C7A2CC27221181A900F74A4E /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		C7A2CC29221181B200F74A4E /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		C7A2CC2A221181B200F74A4E /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		C7A2CC2F2211834F00F74A4E /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		C7A2CC302211834F00F74A4E /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		C7A2CC322211835D00F74A4E /* Student+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+Test1.h"; sourceTree = "<group>"; };
+		C7A2CC332211835D00F74A4E /* Student+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+Test1.m"; sourceTree = "<group>"; };
+		C7A2CC352211836400F74A4E /* Student+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+Test2.h"; sourceTree = "<group>"; };
+		C7A2CC362211836400F74A4E /* Student+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+Test2.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +141,30 @@
 				C7A2CBEC2211632B00F74A4E /* AppDelegate.m */,
 				C7A2CBEE2211632B00F74A4E /* ViewController.h */,
 				C7A2CBEF2211632B00F74A4E /* ViewController.m */,
+				C7A2CC1D2211635500F74A4E /* Person.h */,
+				C7A2CC1E2211635500F74A4E /* Person.m */,
+				C7A2CC2F2211834F00F74A4E /* Student.h */,
+				C7A2CC302211834F00F74A4E /* Student.m */,
+				C7A2CC322211835D00F74A4E /* Student+Test1.h */,
+				C7A2CC332211835D00F74A4E /* Student+Test1.m */,
+				C7A2CC352211836400F74A4E /* Student+Test2.h */,
+				C7A2CC362211836400F74A4E /* Student+Test2.m */,
+				C71954F3221BF51100EBEDA6 /* Animal.h */,
+				C71954F4221BF51100EBEDA6 /* Animal.m */,
+				C71954FC221BF72900EBEDA6 /* Animal+bite.h */,
+				C71954FD221BF72900EBEDA6 /* Animal+bite.m */,
+				C71954F6221BF55400EBEDA6 /* Animal+Run.h */,
+				C71954F7221BF55400EBEDA6 /* Animal+Run.m */,
+				C71954F9221BF55E00EBEDA6 /* Animal+Eat.h */,
+				C71954FA221BF55E00EBEDA6 /* Animal+Eat.m */,
+				C7A2CC26221181A900F74A4E /* Cat.h */,
+				C7A2CC27221181A900F74A4E /* Cat.m */,
+				C7A2CC29221181B200F74A4E /* Dog.h */,
+				C7A2CC2A221181B200F74A4E /* Dog.m */,
+				C7A2CC20221163AE00F74A4E /* Person+Test1.h */,
+				C7A2CC21221163AE00F74A4E /* Person+Test1.m */,
+				C7A2CC23221163B900F74A4E /* Person+Test2.h */,
+				C7A2CC24221163B900F74A4E /* Person+Test2.m */,
 				C7A2CBF12211632B00F74A4E /* Main.storyboard */,
 				C7A2CBF42211632C00F74A4E /* Assets.xcassets */,
 				C7A2CBF62211632C00F74A4E /* LaunchScreen.storyboard */,
@@ -262,8 +322,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A2CC312211834F00F74A4E /* Student.m in Sources */,
+				C7A2CC25221163B900F74A4E /* Person+Test2.m in Sources */,
+				C71954FB221BF55E00EBEDA6 /* Animal+Eat.m in Sources */,
+				C7A2CC372211836400F74A4E /* Student+Test2.m in Sources */,
+				C7A2CC28221181A900F74A4E /* Cat.m in Sources */,
 				C7A2CBF02211632B00F74A4E /* ViewController.m in Sources */,
+				C71954F8221BF55400EBEDA6 /* Animal+Run.m in Sources */,
 				C7A2CBFB2211632C00F74A4E /* main.m in Sources */,
+				C7A2CC342211835D00F74A4E /* Student+Test1.m in Sources */,
+				C7A2CC2B221181B200F74A4E /* Dog.m in Sources */,
+				C7A2CC1F2211635500F74A4E /* Person.m in Sources */,
+				C71954F5221BF51100EBEDA6 /* Animal.m in Sources */,
+				C7A2CC22221163AE00F74A4E /* Person+Test1.m in Sources */,
+				C71954FE221BF72900EBEDA6 /* Animal+bite.m in Sources */,
 				C7A2CBED2211632B00F74A4E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
