@@ -325,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7A2CC312211834F00F74A4E /* Student.m in Sources */,
+				C71954F5221BF51100EBEDA6 /* Animal.m in Sources */,
 				C7A2CC25221163B900F74A4E /* Person+Test2.m in Sources */,
 				C71954FB221BF55E00EBEDA6 /* Animal+Eat.m in Sources */,
 				C7A2CC372211836400F74A4E /* Student+Test2.m in Sources */,
@@ -335,7 +336,6 @@
 				C7A2CC342211835D00F74A4E /* Student+Test1.m in Sources */,
 				C7A2CC2B221181B200F74A4E /* Dog.m in Sources */,
 				C7A2CC1F2211635500F74A4E /* Person.m in Sources */,
-				C71954F5221BF51100EBEDA6 /* Animal.m in Sources */,
 				C7A2CC22221163AE00F74A4E /* Person+Test1.m in Sources */,
 				C71954FE221BF72900EBEDA6 /* Animal+bite.m in Sources */,
 				C7A2CBED2211632B00F74A4E /* AppDelegate.m in Sources */,

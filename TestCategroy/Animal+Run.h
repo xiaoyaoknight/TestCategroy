@@ -1,12 +1,10 @@
-
-
 #import "Animal.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
+/**
+ 添加新的方法
+ */
 @interface Animal (Run)
 
 + (void)run;
 @end
 
-NS_ASSUME_NONNULL_END

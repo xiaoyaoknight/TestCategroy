@@ -38,8 +38,24 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    // 测试load方法Class和Category加载顺序
+    [self demo1];
     
-    NSLog(@"---------测试load方法Class和Category加载顺序-------------");
+    // 测试initialize方法Class和Category加载顺序
+    [self demo2];
+    
+    // 测试多继承
+    [self demo3];
+    
+    // 测试私有方法
+    [self demo4];
+
+}
+
+/**
+ 测试load方法Class和Category加载顺序
+ */
+- (void)demo1 {
     /*
      类的load方法调用早于Category中的load方法,
      调用子类的load方法之前, 会先调用父类的load方法
@@ -48,10 +64,18 @@
      所有的类和分类, load方法只会调用一次
      load方法可以继承, 但是一般情况下不会主动调用load方法, 都是让系统自动调用
      */
-    [Person load];
-    [Person test];
-    
+     NSLog(@"---------测试load方法Class和Category加载顺序-------------");
+
+//    [Person load];
+//    [Person test];
+}
+
+/**
+ 测试initialize方法Class和Category加载顺序
+ */
+- (void)demo2 {
     NSLog(@"---------测试initialize方法Class和Category加载顺序-------------");
+
     /*
      通过源码可以看到,
      +initialize方法会在类第一次接收到消息时调用 使用的是objc_msgSend消息机制调用
@@ -65,11 +89,22 @@
     // 如果分类实现了+initialize，就覆盖类本身的+initialize调用
     // (student中去掉initialize进行打印，初始化的时候发现父类没有初始化，之后才会初始化子类，可能调用2次initialize，后面打印其实是student)
     [Student alloc];
-    
+}
+
+
+/**
+ 测试多继承
+ */
+- (void)demo3 {
     NSLog(@"---------测试多继承-------------");
     [Cat run];
     [Dog eat];
-    
+}
+
+/**
+ 测试私有方法
+ */
+- (void)demo4 {
     NSLog(@"---------测试私有方法-------------");
     // Animal中有bite私有方法，并没有对外暴露，如果直接调用会报错
     // 使用Animal+bite 分类，暴露bite方法，就可以正确调用了

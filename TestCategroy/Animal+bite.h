@@ -1,12 +1,10 @@
-
-
 #import "Animal.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
+/**
+ 暴露一些私有方法
+ */
 @interface Animal (bite)
 
 + (void)bite;
 @end
 
-NS_ASSUME_NONNULL_END
