@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)test;
 
 + (void)getAllMethodList;
+
+@property (nonatomic, assign) int age;
+
 @end
 
 NS_ASSUME_NONNULL_END

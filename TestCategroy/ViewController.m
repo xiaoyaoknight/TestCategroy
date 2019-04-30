@@ -4,6 +4,7 @@
 #import "Person.h"
 #import "Person+Test1.h"
 #import "Person+Test2.h"
+#import "Person+Test3.h"
 #import <objc/runtime.h>
 #import "Cat.h"
 #import "Dog.h"
@@ -39,16 +40,19 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     // 测试load方法Class和Category加载顺序
-    [self demo1];
+//    [self demo1];
     
     // 测试initialize方法Class和Category加载顺序
-    [self demo2];
+//    [self demo2];
     
     // 测试多继承
-    [self demo3];
+//    [self demo3];
     
     // 测试私有方法
-    [self demo4];
+//    [self demo4];
+    
+    // 如何给分类添加“成员变量”
+    [self demo5];
 
 }
 
@@ -111,4 +115,21 @@
     [Animal bite];
 }
 
+/**
+ 思考： 如何给分类添加“成员变量”
+ */
+- (void)demo5 {
+    NSLog(@"---------测试如何给分类添加“成员变量” test3b内部-------------");
+   
+    Person *person = [[Person alloc] init];
+    person.age = 10; // 存在person对象内部
+    person.weight = 20; // 存放在全局的对象里面 
+    
+    Person *person2 = [[Person alloc] init];
+    person2.age = 18;
+    person2.weight = 40;
+    NSLog(@"person  ------------ %d, %d", person.age, person.weight);
+    NSLog(@"person2 ------------ %d, %d", person2.age, person2.weight);
+    
+}
 @end
