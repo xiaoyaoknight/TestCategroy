@@ -47,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C705FAFB2276F05C0088221D /* Person+Test1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Person+Test1.cpp"; sourceTree = "<group>"; };
 		C71954F3221BF51100EBEDA6 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		C71954F4221BF51100EBEDA6 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		C71954F6221BF55400EBEDA6 /* Animal+Run.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Run.h"; sourceTree = "<group>"; };
@@ -143,6 +144,11 @@
 				C7A2CBEF2211632B00F74A4E /* ViewController.m */,
 				C7A2CC1D2211635500F74A4E /* Person.h */,
 				C7A2CC1E2211635500F74A4E /* Person.m */,
+				C7A2CC20221163AE00F74A4E /* Person+Test1.h */,
+				C7A2CC21221163AE00F74A4E /* Person+Test1.m */,
+				C705FAFB2276F05C0088221D /* Person+Test1.cpp */,
+				C7A2CC23221163B900F74A4E /* Person+Test2.h */,
+				C7A2CC24221163B900F74A4E /* Person+Test2.m */,
 				C7A2CC2F2211834F00F74A4E /* Student.h */,
 				C7A2CC302211834F00F74A4E /* Student.m */,
 				C7A2CC322211835D00F74A4E /* Student+Test1.h */,
@@ -161,10 +167,6 @@
 				C7A2CC27221181A900F74A4E /* Cat.m */,
 				C7A2CC29221181B200F74A4E /* Dog.h */,
 				C7A2CC2A221181B200F74A4E /* Dog.m */,
-				C7A2CC20221163AE00F74A4E /* Person+Test1.h */,
-				C7A2CC21221163AE00F74A4E /* Person+Test1.m */,
-				C7A2CC23221163B900F74A4E /* Person+Test2.h */,
-				C7A2CC24221163B900F74A4E /* Person+Test2.m */,
 				C7A2CBF12211632B00F74A4E /* Main.storyboard */,
 				C7A2CBF42211632C00F74A4E /* Assets.xcassets */,
 				C7A2CBF62211632C00F74A4E /* LaunchScreen.storyboard */,
