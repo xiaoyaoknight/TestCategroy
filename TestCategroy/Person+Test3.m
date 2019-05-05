@@ -42,7 +42,7 @@
 //}
 
 // 方法三：关联对象
-static void *weightKey = &weightKey;// 存储自己地址，唯一性
+static void *weightKey = &weightKey;// 存储自己地址，唯一性,保证唯一性即可，可以是字符串@"aaa"
 - (void)setWeight:(int)weight {
     objc_setAssociatedObject(self, weightKey, @(weight), OBJC_ASSOCIATION_RETAIN);
 }
